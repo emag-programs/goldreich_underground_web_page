@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Goldreich Underground Engineering Inc.</title>
+  <style>
+    body {
+      background-color: #f7f5f2;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      color: #2e2e2e;
+    }
+
+    form {
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    input, textarea {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+    }
+
+    button {
+      padding: 0.8rem;
+      font-size: 1rem;
+      background-color: #2e2e2e;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    a {
+      margin-top: 1.5rem;
+      text-decoration: none;
+      color: #2e2e2e;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contact Us</h1>
+  <p>Please contact us via this form or email directly to</p>
+  <a href="mailto:mail@goldreichunderground.com" style="color: #2e2e2e; font-weight: bold;">
+    mail@goldreichunderground.com
+  </a>
+
+  <form action="mailto:mail@goldreichunderground.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="email" placeholder="Your email" required>
+    <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <a href="index.html">← Back to Home</a>
+
+</body>
+</html>
