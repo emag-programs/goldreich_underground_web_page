@@ -1,0 +1,59 @@
+# Build directories
+build/
+bin/
+obj/
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# Visual Studio build outputs
+*.ilk
+*.pdb
+*.idb
+*.ipdb
+*.iobj
+*.pch
+*.log
+*.tlog
+*.lastbuildstate
+
+# Compiled files
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Dependencies
+external/
+third_party/
