@@ -19,7 +19,6 @@ Release/
 *.user
 *.userosscache
 *.sln.docstates
-*.vcxproj.filters
 *.vcxproj.user
 
 # Visual Studio build outputs

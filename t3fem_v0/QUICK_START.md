@@ -29,10 +29,19 @@ Copy these files to the `t3fem_v0/` root directory:
 After copying the files:
 
 ```bash
-cd /path/to/goldreich_underground_web_page
+cd /path/to/repository
 git add t3fem_v0/
 git commit -m "Add t3fem_v0 project files from Visual Studio"
 git push origin main
+```
+
+Or if you're working on a branch:
+
+```bash
+cd /path/to/repository
+git add t3fem_v0/
+git commit -m "Add t3fem_v0 project files from Visual Studio"
+git push origin <your-branch-name>
 ```
 
 ## Step 4: Verify the Structure
