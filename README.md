@@ -1,6 +1,6 @@
 # Goldreich Underground - emag-programs Repository
 
-This repository contains projects for electromagnetic analysis and engineering programs.
+This repository contains projects for analysis and engineering programs.
 
 ## Projects
 
