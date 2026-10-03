@@ -17,7 +17,7 @@ The main company website with information about services and contact details.
 **Website URL:** https://emag-programs.github.io/goldreich_underground_web_page/
 
 ### 2. T3FEM v0 Project
-A computational electromagnetics project for finite element analysis using triangular 3-node elements.
+A computational project for 3D finite element software for analysis of underground works.
 
 **Location:** `t3fem_v0/`
 
